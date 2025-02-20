@@ -1,0 +1,132 @@
+/* Body Styles */
+body {
+  background: linear-gradient(120deg, #0a3d2e, #1b5e20);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+/* Stylish Form */
+.product-form {
+  background: #0f4c3a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  margin: auto;
+}
+
+.product-form input, .product-form select {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #1b5e20;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #1b5e20;
+  color: white;
+}
+
+.product-form input::placeholder {
+  color: #b2dfdb;
+}
+
+.product-form button {
+  background: #26a69a;
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.product-form button:hover {
+  background: #004d40;
+}
+
+/* Product Grid */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Stylish Product Card */
+.product-card {
+  background: #1b5e20;
+  width: 260px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Product Image */
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover img {
+  transform: scale(1.1);
+}
+
+/* Product Details */
+.product-card h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #b2dfdb;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #d7ffd9;
+  margin: 0;
+}
+
+/* Price Tag */
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #26a69a;
+  margin-top: 8px;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #d32f2f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.delete-btn:hover {
+  background: #ff5252;
+}
